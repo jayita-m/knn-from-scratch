@@ -13,5 +13,7 @@ The main tasks of a kNN can be simplified as:
 5. The characteristic with the most "votes" is assigned to the data point. 
 
 ## Calculating Distance
-For this algorithm, I've calculated the distance using **Minkowski Distance** 
+For this algorithm, I've calculated the distance using **Minkowski Distance** where p=1, which translates into **Manhattan Distance/Taxicab Distance**. 
+The Manhattan Distance is calculated by:
 
+[image](https://user-images.githubusercontent.com/67204925/111870887-36d3ae80-8955-11eb-96c4-8d7ec1245c31.png)
