@@ -20,7 +20,14 @@ The Manhattan Distance is calculated by:
 This is basically |x1 - x2| + |y1 -y2| for two points P1 and P2. 
 
 ## Results
+
+**Accuracy:** 0.9736842105263158 
+This is the accuracy of the kNN algorithm I built. To see how it is obtained refer to the next section. 
+
 I range k from 1 to 99, and plot it against the accuracy obtained for each k. 
+
 ![alt text](https://i.imgur.com/45hefzm.jpg)
 
+
+**Analysis:** Accuracy never crosses ~97%. It fluctuates around 95% until k = 40, after which it starts to decline. It reaches a low of ~55% as k closes to 99. 
 
