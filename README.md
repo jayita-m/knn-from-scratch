@@ -26,10 +26,13 @@ This is the accuracy of the kNN algorithm I built. I measured it using the 'accu
 
 I range k from 1 to 99, and plot it against the accuracy obtained for each k. 
 
+
+**Analysis:** Accuracy never crosses ~97%. It fluctuates around 95% until k = 40, after which it starts to decline. It reaches a low of ~55% as k closes to 99. 
+
 ![alt text](https://i.imgur.com/45hefzm.jpg)
 
 
-**Analysis:** Accuracy never crosses ~97%. It fluctuates around 95% until k = 40, after which it starts to decline. It reaches a low of ~55% as k closes to 99. 
+
 
 
 
